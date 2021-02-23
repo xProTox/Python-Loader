@@ -55,9 +55,6 @@ void DoPy_SimpleFileEx()
                 std::string pFile;
                 std::getline(std::cin, pFile);
 
-                if (pFile.length() <= 0)
-                    pFile = "moneymaker";
-
                 std::string fullPath(cCurrentPath);
                 fullPath = fullPath + '\\' + pFile;
 
